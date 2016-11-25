@@ -1,0 +1,24 @@
+{
+  "name": "soukicz/glssoap",
+  "description": "GLS SOAP client",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "gls"
+  ],
+  "authors": [
+    {
+      "name": "Petr Soukup",
+      "email": "soukup@simplia.cz"
+    }
+  ],
+  "require": {
+    "ext-soap": "*",
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soukicz\\GlsSoap\\": "src/"
+    }
+  }
+}
